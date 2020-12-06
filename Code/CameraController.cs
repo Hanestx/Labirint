@@ -16,5 +16,6 @@ namespace Labirint
         {
             transform.position = _player.transform.position + _offset;
         }
+        
     }
 }

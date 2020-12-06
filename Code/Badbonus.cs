@@ -1,9 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using static UnityEngine.Time;
+using Random = UnityEngine.Random;
 
 
 namespace Labirint
 {
+    
     public sealed class Badbonus : InteractiveObject, IFly, IRotation
     {
         #region Fields
@@ -12,6 +15,8 @@ namespace Labirint
         private float _speedRotation = 15.0f;
         private Player _player;
         private DisplayBonuses _displayBonuses;
+        public event Action EventBadBonus;
+
         
         #endregion
 
@@ -28,6 +33,7 @@ namespace Labirint
         
         protected override void Interaction()
         {
+            OnEventBadBonus();
             int bonusType = Random.Range(1, 3);
             switch (bonusType)
             {
@@ -45,6 +51,11 @@ namespace Labirint
             }
         }
         
+        private void OnEventBadBonus()
+        {
+            EventBadBonus?.Invoke();
+        }
+
         public void Fly()
         {
             transform.localPosition = new Vector3(transform.localPosition.x, Mathf.PingPong(Time.time, _lengthFlay), transform.localPosition.z);
@@ -59,7 +70,9 @@ namespace Labirint
         {
             _displayBonuses.Display(bonus);
         }
-        
+
+
         #endregion
+
     }
 }

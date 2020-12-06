@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
@@ -14,13 +15,13 @@ namespace Labirint
 
         #endregion
         
-        
         private void Start()
         {
             _rigidbody = GetComponent<Rigidbody>();
+
         }
-
-
+        
+        
         #region MyMethods
 
         protected void Move()
@@ -29,6 +30,18 @@ namespace Labirint
             float moveVertical = Input.GetAxis("Vertical");
             Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
             _rigidbody.AddForce(movement * Speed);
+        }
+        
+        protected void Jump()
+        {
+            try
+            {
+                throw new MyException("Прыжок в разработке");
+            }
+            catch (MyException e)
+            {
+                Debug.Log($"{e.Message}");
+            }
         }
 
         public void SetSpeed(int value)

@@ -7,7 +7,7 @@ namespace Labirint
     {
         public bool IsInteractable { get; private set; } = true;
         protected abstract void Interaction();
-        
+
         private void OnTriggerEnter(Collider other)
         { 
             if (!IsInteractable || !other.CompareTag("Player"))
@@ -17,5 +17,6 @@ namespace Labirint
             Interaction();
             Destroy(gameObject);
         }
+        
     }
 }
