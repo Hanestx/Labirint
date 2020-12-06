@@ -13,7 +13,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/dgf.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IInitialization.cs" />
@@ -26,19 +25,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GoodBonus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BadBonus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bonus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ISetActivated.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Points.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NextLevel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisplayBonuses.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Goodbonus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Badbonus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyExeption.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       </list>
     </option>
   </component>
@@ -51,7 +54,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -96,6 +99,9 @@
       <workItem from="1606479342919" duration="355000" />
       <workItem from="1606650515380" duration="17501000" />
       <workItem from="1606670686409" duration="632000" />
+      <workItem from="1607140155627" duration="5311000" />
+      <workItem from="1607259893561" duration="9871000" />
+      <workItem from="1607276210047" duration="12000" />
     </task>
     <servers />
   </component>
@@ -108,14 +114,15 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="727" y="244" key="RiderGenerateDialog" timestamp="1606652595066">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="969" y="328" key="RiderGenerateDialog" timestamp="1607140523029">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="727" y="244" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606652595066" />
-    <state x="579" y="147" key="SettingsEditor" timestamp="1606652796933">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="969" y="328" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1607140523029" />
+    <state x="1421" y="348" key="SettingsEditor" timestamp="1607275368671">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="579" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606652796933" />
-    <state x="1421" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1601741069228" />
+    <state x="1421" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1607275368670" />
   </component>
 </project>

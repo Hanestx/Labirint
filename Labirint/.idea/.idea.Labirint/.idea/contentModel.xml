@@ -17,6 +17,7 @@
           <e p="IInteractable.cs" t="Include" />
           <e p="InteractiveObject.cs" t="Include" />
           <e p="IRotation.cs" t="Include" />
+          <e p="MyException.cs" t="Include" />
           <e p="NextLevel.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerBall.cs" t="Include" />
