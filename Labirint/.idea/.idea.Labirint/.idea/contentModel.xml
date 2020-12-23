@@ -8,20 +8,52 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Badbonus.cs" t="Include" />
-          <e p="CameraController.cs" t="Include" />
-          <e p="ClassDiagram1.cd" t="Include" />
-          <e p="DisplayBonuses.cs" t="Include" />
-          <e p="GameController.cs" t="Include" />
+          <e p="Controllers" t="Include">
+            <e p="CameraController.cs" t="Include" />
+            <e p="GameController.cs" t="Include" />
+            <e p="InputController.cs" t="Include" />
+          </e>
           <e p="Goodbonus.cs" t="Include" />
-          <e p="IFly.cs" t="Include" />
-          <e p="IInteractable.cs" t="Include" />
+          <e p="Helper" t="Include">
+            <e p="Crypto.cs" t="Include" />
+            <e p="Extentions.cs" t="Include" />
+            <e p="Reference.cs" t="Include" />
+          </e>
           <e p="InteractiveObject.cs" t="Include" />
-          <e p="IRotation.cs" t="Include" />
+          <e p="Interface" t="Include">
+            <e p="IData.cs" t="Include" />
+            <e p="IExecute.cs" t="Include" />
+            <e p="IFly.cs" t="Include" />
+            <e p="IInteractable.cs" t="Include" />
+            <e p="IRotation.cs" t="Include" />
+          </e>
+          <e p="ListExecuteObject.cs" t="Include" />
+          <e p="LoadLevel.cs" t="Include" />
+          <e p="MiniMap.cs" t="Include" />
+          <e p="Model" t="Include">
+            <e p="PlayerBall.cs" t="Include" />
+            <e p="PlayerBase.cs" t="Include" />
+          </e>
           <e p="MyException.cs" t="Include" />
-          <e p="NextLevel.cs" t="Include" />
-          <e p="Player.cs" t="Include" />
-          <e p="PlayerBall.cs" t="Include" />
-          <e p="Points.cs" t="Include" />
+          <e p="SavedData" t="Include">
+            <e p="BinarySerializationData.cs" t="Include" />
+            <e p="JsonData.cs" t="Include" />
+            <e p="PlayerPrefsData.cs" t="Include" />
+            <e p="SaveDataRepository.cs" t="Include" />
+            <e p="SavedData.cs" t="Include" />
+            <e p="SerializableXMLData.cs" t="Include" />
+            <e p="StreamData.cs" t="Include" />
+            <e p="XMLData.cs" t="Include" />
+          </e>
+          <e p="Test" t="Include">
+            <e p="MenuItems.cs" t="Include" />
+            <e p="MyWindow.cs" t="Include" />
+          </e>
+          <e p="View" t="Include">
+            <e p="DisplayBonuses.cs" t="Include" />
+            <e p="DisplayEndGame.cs" t="Include" />
+            <e p="DisplayWinGame.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Labirint.sln" t="IncludeFlat" />

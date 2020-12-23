@@ -9,39 +9,62 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE84F4A7-54DA-4A6B-B64F-CA409D40938A/1f/1a64e695/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiniMap.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/dgf.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IInitialization.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IFlicker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WinScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IEndGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IBonus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DisplayBoost.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GoodBonus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BadBonus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bonus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ISetActivated.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Points.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NextLevel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DisplayBonuses.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Goodbonus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Badbonus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyExeption.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interface/IExecute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ListExecuteObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NextLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/PlayerBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisplayEndGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/PlayerBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisplayWinGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisplayBonuses.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadBonus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Reference.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Goodbonus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Badbonus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SavedData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StreamData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/XMLData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BinarySerializationData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SerializableXMLData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPrefsData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SavedData/JsonData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SavedData/Crypto.cs" />
+        <option value="$PROJECT_DIR$/Assets/MiniMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MiniMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PhotoController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extentions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SavedData/PlayerPrefsData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SavedData/SaveDataRepository.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SavedData/StreamData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SavedData/XMLData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/TEst.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Test/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/Reference.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Test/MyWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Test/MenuItems.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +125,15 @@
       <workItem from="1607140155627" duration="5311000" />
       <workItem from="1607259893561" duration="9871000" />
       <workItem from="1607276210047" duration="12000" />
+      <workItem from="1607439730703" duration="10473000" />
+      <workItem from="1607511509948" duration="2366000" />
+      <workItem from="1607858371624" duration="3565000" />
+      <workItem from="1608136142365" duration="6109000" />
+      <workItem from="1608228584311" duration="3073000" />
+      <workItem from="1608233088461" duration="1479000" />
+      <workItem from="1608296689955" duration="2184000" />
+      <workItem from="1608306340287" duration="5312000" />
+      <workItem from="1608735568908" duration="359000" />
     </task>
     <servers />
   </component>
@@ -114,11 +146,11 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="969" y="328" key="RiderGenerateDialog" timestamp="1607140523029">
+    <state x="969" y="328" key="RiderGenerateDialog" timestamp="1608136521712">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="727" y="244" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606652595066" />
-    <state x="969" y="328" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1607140523029" />
+    <state x="969" y="328" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1608136521712" />
     <state x="1421" y="348" key="SettingsEditor" timestamp="1607275368671">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
